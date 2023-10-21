@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body {
     background: url(../media/cf292da78e37d9f4b5aa98cae6b7f83b76246d7dr1-800-450v2_hq.jpg);
     background-attachment: fixed;
@@ -5,10 +7,32 @@ body {
     background-position: center;
 }
 
+.btn-restart {
+    background-image: radial-gradient( circle farthest-corner at 17.1% 22.8%,  rgba(226,24,24,1) 0%, rgba(160,6,6,1) 90% );
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000000;
+    width: 250px;
+    padding: .5em;
+    border-radius: 40px;
+    margin-bottom: 2em;
+}
+
+.btn-restart:hover {
+    transform: scale(110%);
+    transition: all 1s;
+}
+
+
+
 .container {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    margin: 3em;
 }
 
 .parrafoGoku {
@@ -38,29 +62,39 @@ body {
     -webkit-box-shadow: 0px 0px 29px 14px rgba(255, 255, 255, 0.5);
     -moz-box-shadow: 0px 0px 29px 14px rgba(255, 255, 255, 0.5);
 }
-@media (max-width: 425px){
-    .parrafoVegeta,  .parrafoGoku{
+
+@media (max-width: 425px) {
+
+    .parrafoVegeta,
+    .parrafoGoku {
         font-size: 1.3rem;
     }
-    .Card{
+
+    .Card {
         width: 350px;
     }
 }
 
-@media (max-width: 375px){
-    .parrafoVegeta,  .parrafoGoku{
+@media (max-width: 375px) {
+
+    .parrafoVegeta,
+    .parrafoGoku {
         font-size: 1rem;
     }
-    .Card{
+
+    .Card {
         width: 300px;
     }
 }
 
-@media (max-width: 330px){
-    .parrafoVegeta,  .parrafoGoku{
+@media (max-width: 330px) {
+
+    .parrafoVegeta,
+    .parrafoGoku {
         font-size: .8rem;
     }
-    .Card{
+
+    .Card {
         width: 200px;
     }
 }
