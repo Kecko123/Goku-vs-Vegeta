@@ -55,6 +55,16 @@ body {
     backdrop-filter: blur(10px);
 }
 
+.parrafoEmpate {
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 2em;
+    background-color: rgba(149, 149, 149, 0.614);
+    border-bottom: 4px rgba(149, 149, 149, .8) solid;
+    backdrop-filter: blur(10px);
+}
+
 
 
 .Card {
